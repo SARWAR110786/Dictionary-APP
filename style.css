@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color:  rgb(243, 236, 236);
+    width: 100vw;
+
+}
+
+header{
+    background-color: rgb(1, 170, 170);
+    color: white;
+    padding: 20px;
+}
+
+header h1{
+    font-size: 36px;
+}
+main{
+    min-height: 78vh;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+main form{
+    display: flex;
+    justify-content: center;
+
+}
+form input[type="text"], button[type="submit"]{
+border: none;
+font-size: 16px;
+font-weight: 500px;
+border-radius: 5px;
+padding: 10px;
+
+
+}
+
+form input[type="text"]{
+    flex-grow: 1;
+}
+
+form button[type="submit"]{
+    background-color: rgb(1, 170, 170);
+    color: white;
+    margin-left: 10px;
+    cursor: pointer;
+
+
+}
+
+footer{
+    background-color: rgb(1, 170, 170);;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    position: fixed;
+    width: 100%;
+}
+
+.result p {
+margin-top: 10px;
+}
+
+.result li{
+    margin-top: 5px;
+}
+
+.result a {
+    
+    text-decoration: none;
+    background-color: rgb(1, 170, 170);
+    color: white;
+    font-size: 15px;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+.result div{
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.result{
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 30px;
+   box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.2);
+}
+
+
+
+
+
+
+
+
+
